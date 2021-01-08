@@ -165,6 +165,14 @@ export default {
             .socials i {
                 font-size: 2rem;
             }
+            .full-portrait {
+                height: unset;
+             }
+        }
+        @media screen and (max-width: 375px) {
+             .full-portrait {
+                height: unset;
+             }
         }
         @media screen and (max-width: 350px) {
             .name p {
