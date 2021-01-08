@@ -34,7 +34,6 @@ actions: {
           }
         }
       );
-      console.log(result.data)
       if (result.data) {
         commit("setUserDetails", result.data);
       }

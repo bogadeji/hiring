@@ -1,16 +1,10 @@
 <template>
-    <!-- <div class="socials">
-            <a href="https://instagram.com/aquilaveionofficial" target="_blank" v-if="this.instagram"><i class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com/aquilaveion" target="_blank" v-if="twitter"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.snapchat.com/add/aquilaveionsnaps" v-if="snapchat"><i class="fab fa-snapchat-square"></i></a>
-            <a href="mailto://aquilaveion@aquil.com" target="_blank" v-if="email"><i class="fas fa-envelope-square"></i></a>
-        </div> -->
-        <div class="socials">
-            <a href="https://instagram.com/aquilaveionofficial" target="_blank"><i class="fab fa-instagram"></i></a>
-            <a href="https://twitter.com/aquilaveion" target="_blank"><i class="fab fa-twitter-square"></i></a>
-            <a href="https://www.snapchat.com/add/aquilaveionsnaps"><i class="fab fa-snapchat-square"></i></a>
-            <a href="mailto://aquilaveion@aquil.com" target="_blank"><i class="fas fa-envelope-square"></i></a>
-        </div>
+    <div class="socials">
+        <a href="https://instagram.com/aquilaveionofficial" target="_blank" v-if="this.instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/aquilaveion" target="_blank" v-if="twitter"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.snapchat.com/add/aquilaveionsnaps" v-if="snapchat"><i class="fab fa-snapchat-square"></i></a>
+        <a href="mailto://aquilaveion@aquil.com" target="_blank" v-if="email"><i class="fas fa-envelope-square"></i></a>
+    </div>
 </template>
 
 <script>
